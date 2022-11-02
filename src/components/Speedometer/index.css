@@ -1,0 +1,54 @@
+.speedometer-container {
+  background-color: #07080c;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.heading-speed {
+  font-size: 25px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.para {
+  font-size: 12px;
+
+  color: #ffffff;
+}
+.button {
+  height: 25px;
+  width: 90px;
+  color: white;
+  background-color: blue;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+.button-tr {
+  height: 25px;
+  width: 120px;
+  color: white;
+  background-color: transparent;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+  border-color: #ffffff;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sppedometer-image {
+  height: 300px;
+  width: 600px;
+}
